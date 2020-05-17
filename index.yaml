@@ -3,7 +3,7 @@ entries:
   kubers:
   - apiVersion: v1
     appVersion: 0.3.0
-    created: "2020-05-17T15:19:32.246758+01:00"
+    created: "2020-05-17T15:29:10.710242+01:00"
     description: Implementation of a SecOps pattern, where a sidecar or init container
       is responsible for retrieving secrets from services like Azure KeyVault
     digest: 9acf330e44ef50735dcbbcb4e7c4c640678f7238356169c17b2275babad44f82
@@ -25,6 +25,6 @@ entries:
     sources:
     - https://github.com/jacops/kubers
     urls:
-    - https://jacops.github.io/helm-chart/kubers-0.2.0.tgz
+    - https://jacops.github.io/helm-charts/kubers-0.2.0.tgz
     version: 0.2.0
-generated: "2020-05-17T15:19:32.244269+01:00"
+generated: "2020-05-17T15:29:10.709129+01:00"

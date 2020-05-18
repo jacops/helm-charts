@@ -2,8 +2,34 @@ apiVersion: v1
 entries:
   kubers:
   - apiVersion: v1
+    appVersion: 0.4.0
+    created: "2020-05-18T17:31:02.822173+01:00"
+    description: Implementation of a SecOps pattern, where a sidecar or init container
+      is responsible for retrieving secrets from services like Azure KeyVault
+    digest: 6e5019f6e1178e259edeb65e1c837e57906fbb6901ced1195ea3674be81a630e
+    home: https://jacops.pl
+    keywords:
+    - secops
+    - secrets
+    - sidecar
+    - keyvault
+    - secretmanager
+    - azure
+    - aws
+    - vault
+    kubeVersion: '>=1.9.0-0'
+    maintainers:
+    - email: jakubigla@gmail.com
+      name: jakubigla
+    name: kubers
+    sources:
+    - https://github.com/jacops/kubers
+    urls:
+    - https://jacops.github.io/helm-charts/kubers-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v1
     appVersion: 0.3.0
-    created: "2020-05-17T15:39:45.846261+01:00"
+    created: "2020-05-18T17:31:02.821621+01:00"
     description: Implementation of a SecOps pattern, where a sidecar or init container
       is responsible for retrieving secrets from services like Azure KeyVault
     digest: 9ed4b8a659f12c01f2d0b0b270158b32f0f80c988c92f4043adb5bb69db1a349
@@ -29,7 +55,7 @@ entries:
     version: 1.0.0
   - apiVersion: v1
     appVersion: 0.3.0
-    created: "2020-05-17T15:39:45.845719+01:00"
+    created: "2020-05-18T17:31:02.821172+01:00"
     description: Implementation of a SecOps pattern, where a sidecar or init container
       is responsible for retrieving secrets from services like Azure KeyVault
     digest: 9acf330e44ef50735dcbbcb4e7c4c640678f7238356169c17b2275babad44f82
@@ -53,4 +79,4 @@ entries:
     urls:
     - https://jacops.github.io/helm-charts/kubers-0.2.0.tgz
     version: 0.2.0
-generated: "2020-05-17T15:39:45.844423+01:00"
+generated: "2020-05-18T17:31:02.820454+01:00"
